@@ -1,10 +1,14 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
 }
 
 img {
-    width: 300px;
+    width: 500px;
     height: auto;
+    padding: 16px auto;
+    margin: 16px auto;
+    display: block;
 }
 
 h1, h2{
@@ -16,6 +20,10 @@ h1{
     background-color: yellow;
     color: black;
     font-size: 60px;
+    border-color: red;
+    border-style: solid;
+    border-width: 8px;
+    padding: 16px;
 }
 h3{
     font-size: 30px;
@@ -26,5 +34,27 @@ h4{
 }
 
 li{
-    text-align-last: auto;
+    margin: 6px auto;
+}
+
+/* To give more space in ingredients for easier viewing */
+ol > li{
+    width: 800px;
+    margin: auto 0 27px;
+    line-height: 22px;
+}
+
+.mm_recipe{
+    margin: 16px;
+}
+
+.mm_desc{
+    margin: auto 32px;
+}
+
+.list_box{
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    padding-bottom: 30px;
 }
